@@ -4,7 +4,7 @@ import { MemoryRouter } from 'react-router'
 import { render, waitFor, screen } from '@testing-library/react'
 import { createMemoryHistory } from 'history'
 import '@testing-library/jest-dom'
-import { AppWithDefaultState } from '../app'
+import { AppWithDefaultState } from '../App'
 
 const apiBaseURL = `https://jsonplaceholder.typicode.com`
 
