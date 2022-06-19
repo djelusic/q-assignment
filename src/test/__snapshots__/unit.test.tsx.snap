@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`post 1`] = `
+<DocumentFragment>
+  <article
+    class="post"
+  >
+    <div>
+      <div
+        class="user"
+      >
+        <span
+          class="avatar"
+        >
+          U
+        </span>
+        <span
+          class="username"
+        >
+          User
+        </span>
+      </div>
+      <h4
+        class="title"
+      >
+        Title
+      </h4>
+      <p
+        class="body"
+      >
+        Body
+      </p>
+    </div>
+    <div
+      class="comments-button"
+    >
+      Show comments (1)
+    </div>
+  </article>
+</DocumentFragment>
+`;

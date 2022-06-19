@@ -1,15 +1,21 @@
 import React from 'react';
+import { BrowserRouter } from 'react-router-dom';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
+
+import { AppWithDefaultState } from './app';
 import reportWebVitals from './reportWebVitals';
+import './index.css';
+
+const defaultLoggingPrefix = 'Hello from'
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter>
+      <AppWithDefaultState loggingPrefix={defaultLoggingPrefix} />
+    </BrowserRouter>
   </React.StrictMode>
 );
 
